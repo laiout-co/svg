@@ -9,7 +9,7 @@ pub use self::data::Data;
 pub use self::parameters::Parameters;
 
 /// A number.
-pub type Number = f32;
+pub type Number = f64;
 
 /// A positioning method.
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
